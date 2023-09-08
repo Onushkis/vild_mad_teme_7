@@ -13,3 +13,13 @@ function showData(items) {
   console.log(items);
   //items.forEach()
 }
+
+/* function showIndexPage(index){
+
+    
+    // fange template
+    const template = document.querySelector("template").content
+    //clone or coppy sammen
+    const clone = template.cloneNode(true);
+}
+ // ændre inhold */
