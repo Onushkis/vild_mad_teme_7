@@ -1,0 +1,176 @@
+/* Style til forside */
+
+/* Mobil */
+@media (max-width: 800px) {
+  body {
+    background-color: white;
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  header {
+    background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.718),
+      rgba(128, 128, 128, 0.732)
+    );
+    padding: 20px;
+  }
+
+  .logo {
+    max-width: 15%;
+    margin-left: 43%;
+  }
+
+  main {
+    min-height: 75vh;
+    background: url(img/Forside-billede.webp) no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 20px;
+
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+
+  h1 {
+    font-family: Brandon Bold;
+    font-size: 20px;
+    color: white;
+
+    grid-column: 1 / 4;
+  }
+
+  section {
+    list-style-type: none;
+  }
+
+  .Blomsterengen {
+    grid-column: 1 / 4;
+  }
+
+  .Skoven {
+    grid-column: 1 / 4;
+  }
+
+  .Stranden {
+    grid-column: 1 / 4;
+  }
+
+  li a {
+    font-family: Brandon Bold;
+    font-size: 15px;
+    border: solid white;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: black;
+  }
+}
+
+/* Desktop */
+@media (min-width: 800px) {
+  body {
+    background-color: white;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  header {
+    background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.718),
+      rgba(128, 128, 128, 0.732)
+    );
+    padding: 40px;
+  }
+
+  .logo {
+    max-width: 12%;
+    margin-left: 44%;
+  }
+
+  main {
+    min-height: 100vh;
+    background: url(img/Forside-billede.webp) no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 60px;
+
+    /* background: url(img/fran-pa-MDQsAF4iMqw-unsplash.jpg) no-repeat; */
+
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  h1 {
+    font-family: Brandon Bold;
+    font-size: 45px;
+    color: white;
+
+    grid-column: 2 / 3;
+  }
+
+  section {
+    list-style-type: none;
+  }
+
+  .Blomsterengen {
+    grid-column: 1 / 2;
+  }
+
+  /* .Blomsterengen-li {
+    background: url(img/joel-holland-TRhGEGdw-YY-unsplash.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+  } */
+
+  .Skoven {
+    grid-column: 2 / 3;
+  }
+
+  /* .Skoven-li {
+    background: url(img/steven-kamenar-MMJx78V7xS8-unsplash.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+  } */
+
+  .Stranden {
+    grid-column: 3 / 4;
+  }
+
+  /* .Stranden-li {
+    background: url(img/sean-oulashin-KMn4VEeEPR8-unsplash.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+  } */
+
+  li a {
+    font-family: Brandon Bold;
+    font-size: 25px;
+    border: solid white;
+    color: white;
+    /* padding: 50px; */
+    padding: 20px;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: black;
+  }
+}
+
+/* Fonte */
+@font-face {
+  font-family: Brandon Bold;
+  src: url(fonte/Brandon\ Text\ W01\ Bold.ttf);
+}
