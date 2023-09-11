@@ -77,7 +77,7 @@
 /* Desktop */
 @media (min-width: 800px) {
   body {
-    background-color: white;
+    background-color: #aecc9f;
     padding: 20px;
     margin-left: 10px;
     margin-right: 10px;
@@ -116,6 +116,31 @@
     color: white;
 
     grid-column: 2 / 3;
+  }
+
+  section {
+    list-style-type: none;
+  }
+
+  .Blomsterengen {
+    grid-column: 1 / 2;
+  }
+
+  .Skoven {
+    grid-column: 2 / 3;
+  }
+
+  .Stranden {
+    grid-column: 3 / 4;
+  }
+
+  li a {
+    font-family: Brandon Bold;
+    font-size: 25px;
+    border: solid white;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
   }
 
   section {
