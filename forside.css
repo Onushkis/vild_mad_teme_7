@@ -1,6 +1,6 @@
 /* Style til forside */
 
-/*----------------------- Mobil -----------------------*/
+/* Mobil */
 @media (max-width: 800px) {
   body {
     background-color: white;
@@ -10,15 +10,11 @@
   }
 
   header {
-<<<<<<< HEAD
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.718), rgba(128, 128, 128, 0.732));
-=======
     background-image: linear-gradient(
       180deg,
       rgba(0, 0, 0, 0.718),
       rgba(128, 128, 128, 0.732)
     );
->>>>>>> 186ceeb850ad229ee94d88da9e497743850a0321
     padding: 20px;
   }
 
@@ -78,11 +74,7 @@
   }
 }
 
-<<<<<<< HEAD
 /* Desktop */
-=======
-/*----------------------- Desktop -----------------------*/
->>>>>>> 186ceeb850ad229ee94d88da9e497743850a0321
 @media (min-width: 800px) {
   body {
     background-color: white;
@@ -92,15 +84,11 @@
   }
 
   header {
-<<<<<<< HEAD
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.718), rgba(128, 128, 128, 0.732));
-=======
     background-image: linear-gradient(
       180deg,
       rgba(0, 0, 0, 0.718),
       rgba(128, 128, 128, 0.732)
     );
->>>>>>> 186ceeb850ad229ee94d88da9e497743850a0321
     padding: 40px;
   }
 
@@ -116,11 +104,6 @@
     background-position: center;
     margin: 60px;
 
-<<<<<<< HEAD
-    /* background: url(img/fran-pa-MDQsAF4iMqw-unsplash.jpg) no-repeat; */
-
-=======
->>>>>>> 186ceeb850ad229ee94d88da9e497743850a0321
     display: grid;
     place-items: center;
     grid-template-columns: 1fr 1fr 1fr;
@@ -128,59 +111,6 @@
   }
 
   h1 {
-<<<<<<< HEAD
-    font-family: Brandon Bold;
-    font-size: 35px;
-    color: white;
-
-    grid-column: 2 / 3;
-  }
-
-  section {
-    list-style-type: none;
-  }
-
-  .Blomsterengen {
-    grid-column: 1 / 2;
-  }
-
-  /* .Blomsterengen-li {
-      background: url(img/joel-holland-TRhGEGdw-YY-unsplash.jpg) no-repeat;
-      background-size: cover;
-      background-position: center;
-    } */
-
-  .Skoven {
-    grid-column: 2 / 3;
-  }
-
-  /* .Skoven-li {
-      background: url(img/steven-kamenar-MMJx78V7xS8-unsplash.jpg) no-repeat;
-      background-size: cover;
-      background-position: center;
-    } */
-
-  .Stranden {
-    grid-column: 3 / 4;
-  }
-
-  /* .Stranden-li {
-      background: url(img/sean-oulashin-KMn4VEeEPR8-unsplash.jpg) no-repeat;
-      background-size: cover;
-      background-position: center;
-    } */
-
-  li a {
-    font-family: Brandon Bold;
-    font-size: 25px;
-    border: solid white;
-    color: white;
-    /* padding: 50px; */
-    padding: 20px;
-    text-decoration: none;
-  }
-
-=======
     font-family: Brandon Bold;
     font-size: 45px;
     color: white;
@@ -209,12 +139,10 @@
     font-size: 25px;
     border: solid white;
     color: white;
-    /* padding: 50px; */
     padding: 20px;
     text-decoration: none;
   }
 
->>>>>>> 186ceeb850ad229ee94d88da9e497743850a0321
   a:hover {
     color: black;
   }
