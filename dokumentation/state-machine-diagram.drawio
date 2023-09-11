@@ -1,0 +1,248 @@
+<mxfile host="65bd71144e">
+    <diagram id="2IpZyWTVwcBk6ORTr7U4" name="Page-1">
+        <mxGraphModel dx="1520" dy="467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="200" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;window load&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="7">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="400" y="350" as="targetPoint"/>
+                        <mxPoint x="399.9" y="280" as="sourcePoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" value="visKategorier" style="swimlane;fontStyle=4;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=37;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;rounded=1;absoluteArcSize=1;arcSize=25;" vertex="1" parent="1">
+                    <mxGeometry x="330" y="360" width="140" height="77" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Skjul andre skærme" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="7">
+                    <mxGeometry y="37" width="140" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Vis start skærm" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="7">
+                    <mxGeometry y="57" width="140" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="klikStrand" style="swimlane;fontStyle=4;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=37;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;rounded=1;absoluteArcSize=1;arcSize=25;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="480" width="140" height="77" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Skjul andre skærme" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="10">
+                    <mxGeometry y="37" width="140" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Vis strand kort" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="10">
+                    <mxGeometry y="57" width="140" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="klikSkov" style="swimlane;fontStyle=4;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=37;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;rounded=1;absoluteArcSize=1;arcSize=25;" vertex="1" parent="1">
+                    <mxGeometry x="330" y="480" width="140" height="77" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Skjul andre skærme" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="13">
+                    <mxGeometry y="37" width="140" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Vis skov kort" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="13">
+                    <mxGeometry y="57" width="140" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="klikBlomstereng" style="swimlane;fontStyle=4;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=37;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;rounded=1;absoluteArcSize=1;arcSize=25;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="480" width="140" height="77" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="Skjul andre skærme" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="16">
+                    <mxGeometry y="37" width="140" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="Vis blomstereng kort" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="16">
+                    <mxGeometry y="57" width="140" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="Klik på strand" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="10">
+                    <mxGeometry x="-0.4177" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                        <mxPoint x="327.5" y="400.0000000000001" as="sourcePoint"/>
+                        <mxPoint x="92.5" y="513" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="20" value="Klik på blomstereng" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="16">
+                    <mxGeometry x="-0.4001" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                        <mxPoint x="469.9999999999999" y="400" as="sourcePoint"/>
+                        <mxPoint x="587.5000000000001" y="320.0000000000001" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="21" value="Klik på skov" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="9" target="13">
+                    <mxGeometry x="0.0698" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                        <mxPoint x="400" y="440" as="sourcePoint"/>
+                        <mxPoint x="400" y="478" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" value="visStrandPizza" style="swimlane;fontStyle=4;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=37;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;rounded=1;absoluteArcSize=1;arcSize=25;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="600" width="160" height="113" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="Skjul andre skærme&#10;Vis opskrift skærm" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="22">
+                    <mxGeometry y="37" width="160" height="33" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="Vis råvarer for strand pizza&#10;Vis svg for strand pizza&#10;Vis opskrift for strand pizza" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="22">
+                    <mxGeometry y="70" width="160" height="43" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="visSkovPizza" style="swimlane;fontStyle=4;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=37;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;rounded=1;absoluteArcSize=1;arcSize=25;" vertex="1" parent="1">
+                    <mxGeometry x="410" y="600" width="160" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="Skjul andre skærme" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="28">
+                    <mxGeometry y="37" width="160" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="Vis råvarer for strand pizza" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="28">
+                    <mxGeometry y="57" width="160" height="43" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="visSkovPasta" style="swimlane;fontStyle=4;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=37;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;rounded=1;absoluteArcSize=1;arcSize=25;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="600" width="180" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="Skjul andre skærme" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="31">
+                    <mxGeometry y="37" width="180" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="Vis råvarer for strand pasta ret" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="31">
+                    <mxGeometry y="57" width="180" height="43" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="visBlomsterengPasta" style="swimlane;fontStyle=4;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=37;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;rounded=1;absoluteArcSize=1;arcSize=25;" vertex="1" parent="1">
+                    <mxGeometry x="810" y="600" width="160" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="Skjul andre skærme" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="34">
+                    <mxGeometry y="37" width="160" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="Vis råvarer for strand pizza" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="34">
+                    <mxGeometry y="57" width="160" height="43" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="visBlomsterengPizza" style="swimlane;fontStyle=4;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=37;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;rounded=1;absoluteArcSize=1;arcSize=25;" vertex="1" parent="1">
+                    <mxGeometry x="610" y="600" width="180" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="Skjul andre skærme" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="37">
+                    <mxGeometry y="37" width="180" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="Vis råvarer for strand pasta ret" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="37">
+                    <mxGeometry y="57" width="180" height="43" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="Klik på pizza" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="22">
+                    <mxGeometry x="0.3845" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                        <mxPoint x="140" y="520" as="sourcePoint"/>
+                        <mxPoint x="22.5" y="600" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="90" y="520"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="41" value="Klik på pasta ret" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="11">
+                    <mxGeometry x="0.7523" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                        <mxPoint x="-10" y="510" as="sourcePoint"/>
+                        <mxPoint x="-100" y="600" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="-100" y="517"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="42" value="visStrandPasta" style="swimlane;fontStyle=4;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=37;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;rounded=1;absoluteArcSize=1;arcSize=25;" vertex="1" parent="1">
+                    <mxGeometry x="-180" y="600" width="160" height="113" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="Skjul andre skærme&#10;Vis opskrift skærm" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="42">
+                    <mxGeometry y="37" width="160" height="33" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="Vis råvarer for strand pasta&#10;Vis svg for strand pasta&#10;Vis opskrift for strand pasta" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="42">
+                    <mxGeometry y="70" width="160" height="43" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="Klik på pizza" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="17">
+                    <mxGeometry x="0.3845" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                        <mxPoint x="750" y="520" as="sourcePoint"/>
+                        <mxPoint x="700" y="600" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="660" y="520"/>
+                            <mxPoint x="700" y="520"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="55" value="Klik på pasta" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="17">
+                    <mxGeometry x="-0.2332" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                        <mxPoint x="850" y="527" as="sourcePoint"/>
+                        <mxPoint x="890" y="600" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="890" y="517"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="57" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="14" target="17">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="430" y="550" as="sourcePoint"/>
+                        <mxPoint x="480" y="500" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="58" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="280" y="517.97" as="sourcePoint"/>
+                        <mxPoint x="330" y="517.97" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="60" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="15" target="28">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="400" y="600" as="sourcePoint"/>
+                        <mxPoint x="450" y="550" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="66" value="Klik på pizza" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="60">
+                    <mxGeometry x="0.0112" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="61" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="31">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="400" y="557" as="sourcePoint"/>
+                        <mxPoint x="490" y="600" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="65" value="Klik på pasta" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="61">
+                    <mxGeometry x="-0.0821" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="68" value="" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="780" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="44" target="68">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="340" y="610" as="sourcePoint"/>
+                        <mxPoint x="390" y="560" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="70" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="24" target="68">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="360" y="590" as="sourcePoint"/>
+                        <mxPoint x="410" y="540" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="72" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="36" target="68">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="400" y="590" as="sourcePoint"/>
+                        <mxPoint x="450" y="540" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="73" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="39" target="68">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="400" y="590" as="sourcePoint"/>
+                        <mxPoint x="450" y="540" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="74" value="" style="endArrow=classic;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="33" target="68">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="400" y="590" as="sourcePoint"/>
+                        <mxPoint x="450" y="540" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="75" value="" style="endArrow=classic;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="30" target="68">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="400" y="590" as="sourcePoint"/>
+                        <mxPoint x="450" y="540" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
