@@ -10,11 +10,11 @@ fetch("https://tjherkatrrebvelyjaav.supabase.co/rest/v1/vildtmaddata?select=land
   .then((res) => res.json())
   .then(showLandscapes);
 
-function showLandscapes(scapes) {
-  console.log(scapes);
-  cats.forEach(showLandscape);
+function showLandscapes(landscapes) {
+  console.log(landscapes);
+  landscapes.forEach(showLandscape);
 }
-function showLandscape(scape) {
+function showLandscape(landscape) {
   //fanger vores main
   const main = document.querySelector("main").content;
 
@@ -22,8 +22,8 @@ function showLandscape(scape) {
   const clone = main.cloneNode(true);
 
   //ændrer indhold
-  clone.querySelector("a").textContent = scape.landscape;
-  clone.querySelector("a").href = `kort.html?landscape=${scape.landscape}`;
+  clone.querySelector("a").textContent = landscape.landscape;
+  clone.querySelector("a").href = `kort.html?landscape=${landscape.landscape}`;
 
   //appender
   document.querySelector("section").appendChild(clone);
