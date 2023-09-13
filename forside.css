@@ -1,6 +1,6 @@
 /* Style til forside */
 
-/* Mobil */
+/*------------------- Mobil -------------------*/
 @media (max-width: 800px) {
   body {
     background-color: #aecc9f;
@@ -38,7 +38,7 @@
     grid-template-rows: 1fr 1fr 1fr 1fr;
   }
 
-  h1 {
+  .h1-forside {
     font-family: Brandon Bold;
     font-size: 18px;
     color: white;
@@ -80,7 +80,7 @@
   }
 }
 
-/* Desktop */
+/*------------------- Desktop -------------------*/
 @media (min-width: 800px) {
   body {
     background-color: #aecc9f;
@@ -118,7 +118,7 @@
     grid-template-rows: 1fr 1fr 1fr;
   }
 
-  h1 {
+  .h1-forside {
     font-family: Brandon Bold;
     font-size: 45px;
     color: white;

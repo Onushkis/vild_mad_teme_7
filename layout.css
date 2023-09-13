@@ -131,12 +131,16 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.718), rgba(128, 128, 128, 0.732));
+  background-image: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.718),
+    rgba(128, 128, 128, 0.732)
+  );
 }
 p {
   text-align: center;
   font-family: Brandon Bold;
-  font-size: 1.5rem;
+  font-size: 22px;
   margin-bottom: 3%;
 }
 
@@ -167,14 +171,15 @@ nav {
 
 .menu a {
   display: block;
+  font-size: 22px;
   padding: 10px;
-  color: black;
+  color: white;
   text-decoration: none;
   transition: color 0.3s;
 }
 
 .menu a:hover {
-  color: rgb(255, 255, 255);
+  color: black;
 }
 
 .burger {
