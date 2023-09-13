@@ -17,7 +17,6 @@ fetch(`https://tjherkatrrebvelyjaav.supabase.co/rest/v1/vildtmaddata?landscape=e
 })
   .then((res) => res.json())
   .then(showLandscapes);
-
 function showLandscapes(landscapes) {
   console.log(landscapes);
 
