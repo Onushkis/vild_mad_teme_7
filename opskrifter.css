@@ -219,14 +219,19 @@ div.item {
   }
 
   nav {
-    height: 120px;
+    height: 175px;
+    margin-top: 15px;
   }
 
   .nav-h2 {
     font-family: Brandon Bold;
-    font-size: 18px;
+    font-size: 22px;
     color: white;
     margin-top: 0;
+  }
+
+  .nav-h2:hover {
+    color: black;
   }
 
   .nav-list {
@@ -257,6 +262,9 @@ div.item {
   }
 
   main {
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
     margin-top: 1rem;
   }
 
