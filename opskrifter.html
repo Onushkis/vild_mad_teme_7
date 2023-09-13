@@ -23,17 +23,17 @@
             </label>
             <ul class="nav-list">
                 <li>
-                    <a class="active" href="kort.html">
+                    <a class="active" href="kort.html?landscape=stranden">
                         <h2 class="nav-h2"> Stranden</h2>
                     </a>
                 </li>
                 <li>
-                    <a href="kort.html">
+                    <a href="kort.html?landscape=skoven">
                         <h2 class="nav-h2">Skov</h2>
                     </a>
                 </li>
                 <li>
-                    <a href="kort.html">
+                    <a href="kort.html?landscape=blomsterengen">
                         <h2 class="nav-h2">Blomstering</h2>
                     </a>
                 </li>
@@ -46,19 +46,19 @@
         <div class="main-section">
 
             <section class="block">
-                <h2>Find disse råvarer</h2>
+                <!-- <h2>Find disse råvarer</h2>
                 <div class="item">
-                    <img src="./img/pizza.svg" alt="item">
+                    <img class="img1" src="./img/pizza.svg" alt="item">
                     <span class="caption">Blæretang </span>
                 </div>
                 <div class="item">
-                    <img src="./img/pizza.svg" alt="item">
+                    <img class="img2" src="./img/pizza.svg" alt="item">
                     <span class="caption">Kvan </span>
                 </div>
                 <div class="item">
-                    <img src="./img/pizza.svg" alt="item">
+                    <img class="img3" src="./img/pizza.svg" alt="item">
                     <span class="caption">Lav Klortang </span>
-                </div>
+                </div> -->
             </section>
 
             <section class="block-2">
@@ -80,9 +80,20 @@
             </section>
         </div>
 
+        <template id="template-opskrift">
+
+            <div class="item">
+                <img style="width:100px" class="img1" src="./img/pizza.svg" alt="item">
+                <span class="caption">Blæretang </span>
+            </div>
+
+
+        </template>
+
 
     </main>
-    <script src="script.js"></script>
+    <script src="kort.js"></script>
 </body>
+
 
 </html>

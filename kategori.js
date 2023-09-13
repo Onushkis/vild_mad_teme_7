@@ -15,16 +15,16 @@ function showLandscapes(landscapes) {
   landscapes.forEach(showLandscape);
 }
 function showLandscape(landscape) {
-  //fanger vores main
-  const template = document.querySelector("#landskab").content;
+  //fanger vores template
+  const template = document.querySelector("template").content;
 
   //cloner
   const clone = template.cloneNode(true);
 
   //ændrer indhold
-  clone.querySelector("a").textContent = landscape.landscape;
+  clone.querySelector("").textContent = landscape.landscape;
   clone.querySelector("a").href = `kort.html?landscape=${landscape.landscape}`;
 
   //appender
-  document.querySelector("section").appendChild(clone);
+  document.querySelector("#landskab").appendChild(clone);
 }
