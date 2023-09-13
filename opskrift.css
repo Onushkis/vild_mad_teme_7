@@ -1,5 +1,4 @@
 /* General styling */
-
 * {
   margin: 0;
   padding: 0;
@@ -8,25 +7,47 @@
   list-style: none;
 }
 
+/*------------------- Mobil -------------------*/
+
 body {
-  /* font-family: ""; */
-  background-color: #a2ae7b;
+  background-color: #aecc9f;
+  padding: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
-nav {
-  border-bottom: 2px solid white;
-  line-height: 2;
+.main-section {
+  background-color: antiquewhite;
+  height: 85vh;
+  width: 400px;
+  margin: -8px;
+  border-radius: 50px;
 }
 
-/* Navigation */
+h1 {
+  text-align: center;
+  padding-top: 5rem;
+  font-size: 18px;
+  color: #fff;
+}
 
-nav {
-  height: 90px;
-  width: 100%;
-  background-color: #a2ae7b;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+h2 {
+  font-size: 18px;
+  color: black;
+  margin-top: 3rem;
+  padding: 10px;
+}
+
+.p {
+  line-height: 1.7;
+  width: 300px;
+  border: 2px solid black;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+  color: black;
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 50px;
 }
 
 .block {
@@ -40,64 +61,34 @@ nav {
   text-align: center;
 }
 
-.main-section {
-  border: 2px solid;
-  background-color: antiquewhite;
-  height: 100%;
-  width: 400px;
-  margin: 2rem auto;
-}
+/* Navigation */
 
-h1 {
-  text-align: center;
-  padding-top: 5rem;
-  font-size: 3rem;
-  color: #fff;
-}
+nav {
+  background-image: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.718),
+    rgba(128, 128, 128, 0.732)
+  );
 
-h2 {
-  font-size: 22px;
-  margin-top: 3rem;
-  color: black;
+  display: flex;
+  height: 90px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 50px;
 }
 
 .nav-h2 {
   color: white;
 }
-.p {
-  line-height: 1.7;
-  width: 300px;
-  border: 2px solid black;
-  margin: 0 auto;
-  margin-top: 2rem;
-  margin-bottom: 3rem;
-  color: black;
-  background-color: #fff;
-  padding: 1.5rem;
-}
-
-.logo-container {
-  display: flex;
-  align-items: center;
-  /* width: 0; */
-  margin: 0;
-}
-
-.logo {
-  margin-left: 20px;
-  width: 75px;
-  height: 75px;
-}
 
 .nav-list {
   position: fixed;
-  width: 100%;
+  float: right;
+  width: 92%;
   height: 0vh;
   top: 75px;
-  background-color: #a2ae7b;
-  float: right;
   text-align: center;
-  transition: all 0.5s;
 }
 
 .nav-list li {
@@ -119,12 +110,29 @@ h2 {
   transition: 0.5s;
 }
 
+.logo {
+  margin-top: 8px;
+  margin-left: 20px;
+  width: 75px;
+  height: 75px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  /* width: 0; */
+  margin: 0;
+}
+
+/* Burger menu */
+
 .hamburger-btn {
   display: block;
   font-size: 30px;
   color: #fff;
   float: right;
   line-height: 75px;
+  margin-top: 10px;
   margin-right: 40px;
   cursor: pointer;
 }
@@ -178,57 +186,52 @@ div.item img {
 }
 
 div.item {
-  /* To correctly align image, regardless of content height: */
   vertical-align: top;
   display: inline-block;
-  /* To horizontally center images and caption */
   text-align: center;
-  /* The width of the container also implies margin around the images. */
   width: 124px;
   cursor: pointer;
 }
 
 .caption {
-  /* Make the caption a block so it occupies its own line. */
   display: block;
   font-size: 16px;
   line-height: 1.7;
 }
 
-/* for desctop */
+/*------------------- Desktop -------------------*/
 
-@media only screen and (min-width: 600px) {
-  .logo-container {
-    margin-left: 25px;
-  }
-
-  nav {
+@media only screen and (min-width: 800px) {
+  /* Navigation */
+  .logo {
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 100px;
     height: 100px;
   }
 
-  .nav-h2 {
-    margin-top: 0;
-    font-size: 1.5rem;
+  .logo-container {
+    margin-left: 25px;
   }
 
   .logo img {
     display: block;
   }
 
-  .logo {
-    margin-left: 20px;
-    margin-top: 6rem;
-    width: 100px;
-    height: 100px;
+  nav {
+    height: 120px;
   }
 
-  .hamburger-btn {
-    display: none;
+  .nav-h2 {
+    font-family: Brandon Bold;
+    font-size: 18px;
+    color: white;
+    margin-top: 0;
   }
 
   .nav-list {
     position: relative;
-    height: 100px;
+    height: 115px;
     top: 0;
     float: right;
     text-align: right;
@@ -244,36 +247,74 @@ div.item {
     margin: 0 20px;
     transition: none;
   }
+
+  /* Generel style på dekstop */
+  body {
+    background-color: #aecc9f;
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
   main {
     margin-top: 1rem;
   }
 
-  .block h2 {
-    font-size: 22px;
-    margin-top: 2rem;
-    color: black;
-  }
-
   .main-section {
     display: flex;
-    align-items: center;
     justify-content: space-around;
-    padding: 0 2rem 0 2rem;
-    height: 300px;
-    width: 1000px;
+    height: 350px;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  h1 {
+    font-family: Brandon Bold;
+    font-size: 45px;
+    color: white;
+  }
+
+  h2 {
+    font-size: 18px;
+    color: black;
+    margin-top: 3rem;
+    padding: 10px;
   }
 
   .block {
     display: block;
+    text-align: center;
+  }
+
+  .block-2 {
+    flex-direction: column;
     align-items: center;
     text-align: center;
+  }
+
+  .block h2 {
+    font-size: 18px;
+    margin-top: 2rem;
+    color: black;
   }
 
   .block-2 {
     width: 180px;
     margin-top: -1rem;
   }
+
   .p {
     margin-left: 2rem;
+    padding: 55px;
   }
+
+  .hamburger-btn {
+    display: none;
+  }
+}
+
+/* Fonte */
+@font-face {
+  font-family: Brandon Bold;
+  src: url(fonte/Brandon\ Text\ W01\ Bold.ttf);
 }
