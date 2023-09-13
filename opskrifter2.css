@@ -19,11 +19,21 @@ nav {
 }
 
 /* Navigation */
+<<<<<<< HEAD
+=======
+.nav-h2:hover {
+  color: black;
+}
+>>>>>>> e149c56940519b7ce21a46f1e60c8a5ced3463c3
 
 nav {
   height: 90px;
   width: 100%;
+<<<<<<< HEAD
   background-color: #a2ae7b;
+=======
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.718), rgba(128, 128, 128, 0.732));
+>>>>>>> e149c56940519b7ce21a46f1e60c8a5ced3463c3
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -94,7 +104,11 @@ h2 {
   width: 100%;
   height: 0vh;
   top: 75px;
+<<<<<<< HEAD
   background-color: #a2ae7b;
+=======
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.718), rgba(128, 128, 128, 0.732));
+>>>>>>> e149c56940519b7ce21a46f1e60c8a5ced3463c3
   float: right;
   text-align: center;
   transition: all 0.5s;
@@ -144,8 +158,12 @@ h2 {
 div.item img {
   margin-top: 2rem;
   border: 1px solid;
+<<<<<<< HEAD
   background-color: white;
   border: 2px solid black;
+=======
+  background-color: wheat;
+>>>>>>> e149c56940519b7ce21a46f1e60c8a5ced3463c3
   padding: 10px;
 }
 

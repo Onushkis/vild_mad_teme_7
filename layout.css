@@ -68,7 +68,7 @@ main {
   .sider {
     width: 150px;
     text-align: center;
-    font-size: 18px;
+    font-size: 40px;
   }
   .naven {
     width: 100%;
@@ -133,10 +133,16 @@ header {
   padding: 20px;
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.718), rgba(128, 128, 128, 0.732));
 }
+p {
+  text-align: center;
+  font-family: Brandon Bold;
+  font-size: 1.5rem;
+  margin-bottom: 3%;
+}
 
 .logo img {
-  width: 70px;
-  height: 70px;
+  width: 90px;
+  height: 90px;
 }
 
 nav {
@@ -189,4 +195,8 @@ nav {
 
 header {
   position: relative;
+}
+@font-face {
+  font-family: Brandon Bold;
+  src: url(fonte/Brandon\ Text\ W01\ Bold.ttf);
 }
