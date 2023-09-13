@@ -1,0 +1,320 @@
+/* General styling */
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  text-decoration: none;
+  list-style: none;
+}
+
+/*------------------- Mobil -------------------*/
+
+body {
+  background-color: #aecc9f;
+  padding: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.main-section {
+  background-color: antiquewhite;
+  height: 85vh;
+  width: 400px;
+  margin: -8px;
+  border-radius: 50px;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 5rem;
+  font-size: 18px;
+  color: #fff;
+}
+
+h2 {
+  font-size: 18px;
+  color: black;
+  margin-top: 3rem;
+  padding: 10px;
+}
+
+.p {
+  line-height: 1.7;
+  width: 300px;
+  border: 2px solid black;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+  color: black;
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 50px;
+}
+
+.block {
+  display: block;
+  text-align: center;
+}
+
+.block-2 {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Navigation */
+
+nav {
+  background-image: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.718),
+    rgba(128, 128, 128, 0.732)
+  );
+
+  display: flex;
+  height: 90px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 50px;
+}
+
+.nav-h2 {
+  color: white;
+}
+
+.nav-list {
+  position: fixed;
+  float: right;
+  width: 92%;
+  height: 0vh;
+  top: 75px;
+  text-align: center;
+}
+
+.nav-list li {
+  opacity: 0;
+  line-height: 30px;
+  margin: 50px 0;
+  transition: all 0.5s;
+}
+
+.nav-list li a {
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.nav-list li a:active,
+.nav-list li a:hover {
+  color: darkgreen;
+  transition: 0.5s;
+}
+
+.logo {
+  margin-top: 8px;
+  margin-left: 20px;
+  width: 75px;
+  height: 75px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  /* width: 0; */
+  margin: 0;
+}
+
+/* Burger menu */
+
+.hamburger-btn {
+  display: block;
+  font-size: 30px;
+  color: #fff;
+  float: right;
+  line-height: 75px;
+  margin-top: 10px;
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+#check {
+  display: none;
+}
+
+#check:checked ~ .nav-list {
+  height: 100vh;
+}
+
+#check:checked ~ .nav-list li {
+  opacity: 1;
+}
+
+div.item img {
+  margin-top: 2rem;
+  border: 1px solid;
+  background-color: wheat;
+  padding: 10px;
+}
+
+.item_last-img img {
+  width: 30%;
+  margin-top: 2rem;
+  border: 1px solid;
+  background-color: wheat;
+  padding: 10px;
+}
+
+.item_last-img {
+  display: block;
+
+  text-align: center;
+}
+
+.opskrift {
+  border: 2px solid;
+  background-color: antiquewhite;
+  height: 100%;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.items_flex {
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  margin: 0 auto;
+}
+
+div.item {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  width: 124px;
+  cursor: pointer;
+}
+
+.caption {
+  display: block;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+/*------------------- Desktop -------------------*/
+
+@media only screen and (min-width: 800px) {
+  /* Navigation */
+  .logo {
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+  }
+
+  .logo-container {
+    margin-left: 25px;
+  }
+
+  .logo img {
+    display: block;
+  }
+
+  nav {
+    height: 120px;
+  }
+
+  .nav-h2 {
+    font-family: Brandon Bold;
+    font-size: 18px;
+    color: white;
+    margin-top: 0;
+  }
+
+  .nav-list {
+    position: relative;
+    height: 115px;
+    top: 0;
+    float: right;
+    text-align: right;
+    margin-right: 25px;
+    transition: none;
+    text-align: center;
+  }
+
+  .nav-list li {
+    display: inline-block;
+    opacity: 1;
+    line-height: 100px;
+    margin: 0 20px;
+    transition: none;
+  }
+
+  /* Generel style på dekstop */
+  body {
+    background-color: #aecc9f;
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  main {
+    margin-top: 1rem;
+  }
+
+  .main-section {
+    display: flex;
+    justify-content: space-around;
+    height: 350px;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  h1 {
+    font-family: Brandon Bold;
+    font-size: 45px;
+    color: white;
+  }
+
+  h2 {
+    font-size: 18px;
+    color: black;
+    margin-top: 3rem;
+    padding: 10px;
+  }
+
+  .block {
+    display: block;
+    text-align: center;
+  }
+
+  .block-2 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .block h2 {
+    font-size: 18px;
+    margin-top: 2rem;
+    color: black;
+  }
+
+  .block-2 {
+    width: 180px;
+    margin-top: -1rem;
+  }
+
+  .p {
+    margin-left: 2rem;
+    padding: 55px;
+  }
+
+  .hamburger-btn {
+    display: none;
+  }
+}
+
+/* Fonte */
+@font-face {
+  font-family: Brandon Bold;
+  src: url(fonte/Brandon\ Text\ W01\ Bold.ttf);
+}
