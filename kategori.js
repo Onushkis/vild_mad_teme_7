@@ -16,10 +16,10 @@ function showLandscapes(landscapes) {
 }
 function showLandscape(landscape) {
   //fanger vores main
-  const main = document.querySelector("main").content;
+  const template = document.querySelector("#landskab").content;
 
   //cloner
-  const clone = main.cloneNode(true);
+  const clone = template.cloneNode(true);
 
   //ændrer indhold
   clone.querySelector("a").textContent = landscape.landscape;
