@@ -1,6 +1,6 @@
 /* Style til forside */
 
-/* Mobil */
+/*------------------- Mobil -------------------*/
 @media (max-width: 800px) {
   body {
     background-color: #aecc9f;
@@ -80,7 +80,7 @@
   }
 }
 
-/* Desktop */
+/*------------------- Desktop -------------------*/
 @media (min-width: 800px) {
   body {
     background-color: #aecc9f;
