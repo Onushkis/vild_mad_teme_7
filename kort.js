@@ -20,7 +20,8 @@ function showLandscapes(landscapes) {
 
   if (document.querySelector(".main_title")) {
     landscapes.forEach((singleElement) => {
-      console.log(singleElement.image);
+      //console.log(singleElement.image);
+      //cloner og ændrer indhold
       const clone = document.querySelector("#template-opskrift").content.cloneNode(true);
       clone.querySelector(".img1").setAttribute("src", singleElement.image);
       clone.querySelector(".caption").textContent = singleElement.name;
@@ -28,7 +29,6 @@ function showLandscapes(landscapes) {
       document.querySelector(".block").appendChild(clone);
     });
   }
-
   //   //looper og kalder showLandscape
   //   //->landscapes.forEach(showLandscape);
 }
