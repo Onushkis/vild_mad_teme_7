@@ -1,11 +1,19 @@
 const urlParams = new URLSearchParams(window.location.search);
 // console.log(urlParams);
 const landscape = urlParams.get("landscape");
+const food = urlParams.get("food");
 console.log(landscape);
 let aarstid = landscape;
 console.log(aarstid);
 // console.log(landscape);
 console.log(landscape.landscape);
+
+if (food == "Pizza") {
+  document.querySelector(".Strand_img").src = "img/pizza.svg";
+}
+if (food == "Pasta") {
+  document.querySelector(".Strand_img").src = "img/pasta.svg";
+}
 
 fetch(`https://tjherkatrrebvelyjaav.supabase.co/rest/v1/vildtmaddata?landscape=eq.${aarstid}`, {
   method: "GET",
