@@ -1,10 +1,8 @@
+//laver det nye objekt urlParams2, gør det muligt at arbejde med query parametre i den nye url
 const urlParams2 = new URLSearchParams(window.location.search);
-// console.log(urlParams2);
+//bruger get til at hente værdien på landscape query parameteret
 const landscape2 = urlParams2.get("landscape");
-console.log(landscape2);
-
-// console.log(landscape);
-
+//henter data, inkluderer landscape2 variablen som query parameter
 fetch("https://tjherkatrrebvelyjaav.supabase.co/rest/v1/vildtmaddata?title=eq." + landscape2, {
   method: "GET",
   headers: {
@@ -13,8 +11,9 @@ fetch("https://tjherkatrrebvelyjaav.supabase.co/rest/v1/vildtmaddata?title=eq." 
 })
   .then((res) => res.json())
   .then(showLandscapes);
-
 function showLandscapes(landscapes) {
+  //vælger html elementet .headline og gemmer værdien i headlineElement variablen
   const headlineElement = document.querySelector(".headline");
+  //sætter html elementet til landscape2 variablens værdi
   headlineElement.textContent = landscape2;
 }
