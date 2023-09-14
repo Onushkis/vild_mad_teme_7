@@ -12,7 +12,7 @@ function showLandscapes(landscapes) {
   console.log(landscapes);
   landscapes.forEach(showLandscape);
 }
-function showLandscape(landscape) 
+function showLandscape(landscape)
   //fanger vores template
   const template = document.querySelector("template").content;
 

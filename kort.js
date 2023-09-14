@@ -45,7 +45,8 @@ if (document.querySelector(".pizzaClick")) {
 //   document.querySelector(".headline").textContent = landscape;
 //   const copy = template.cloneNode(true);
 //   //ændre indhold
-//   copy.querySelector(".headline").textContent = landscape.title;
 //   //appende
 //   document.querySelector("#landskab-kort").appendChild(copy);
 // }
+
+//   copy.querySelector(".headline").textContent = landscape.title;
