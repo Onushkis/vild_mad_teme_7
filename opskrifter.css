@@ -38,7 +38,7 @@ h2 {
   padding: 10px;
 }
 
-.p {
+.testen {
   line-height: 1.7;
   width: 300px;
   border: 2px solid black;
@@ -50,7 +50,7 @@ h2 {
   border-radius: 50px;
 }
 
-.block {
+.block-3 {
   display: block;
   text-align: center;
 }
@@ -287,7 +287,7 @@ div.item {
     padding: 10px;
   }
 
-  .block {
+  .block-3 {
     display: block;
     text-align: center;
   }
@@ -309,7 +309,7 @@ div.item {
     margin-top: -1rem;
   }
 
-  .p {
+  .testen {
     margin-left: 2rem;
     padding: 55px;
   }
