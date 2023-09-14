@@ -23,7 +23,7 @@ function showLandscapes(landscapes) {
       console.log(singleElement.image);
       const clone = document.querySelector("#template-opskrift").content.cloneNode(true);
       clone.querySelector(".img1").setAttribute("src", singleElement.image);
-      clone.querySelector(".caption").setAttribute("span", singleElement.name);
+      clone.querySelector(".caption").textContent = singleElement.name;
 
       document.querySelector(".block").appendChild(clone);
     });
@@ -48,5 +48,3 @@ if (document.querySelector(".pizzaClick")) {
 //   //appende
 //   document.querySelector("#landskab-kort").appendChild(copy);
 // }
-
-//   copy.querySelector(".headline").textContent = landscape.title;
